@@ -35,7 +35,7 @@ Class :
         private List<TestCase> _testcases;
 
         private static readonly Regex _rgxDefaultFirstLine = new Regex(@"^All available test cases:|^Matching test cases:");
-        private static readonly Regex _rgxDefaultFilenameLineEnd = new Regex(@"(.*)\(([0-9 .,']*)\)$");
+        private static readonly Regex _rgxDefaultFilenameLineEnd = new Regex(@"(.*)\(([0-9 .,']+)\)$");
         private static readonly Regex _rgxDefaultFilenameLineStart = new Regex(@"^[a-zA-Z]:\\");
         private static readonly Regex _rgxDefaultTestCaseLine = new Regex(@"^[ ]{2}([^ ].*)");
         private static readonly Regex _rgxDefaultTestCaseLineExtented = new Regex(@"^[ ]{4}([^ ].*)");
